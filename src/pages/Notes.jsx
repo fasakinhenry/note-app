@@ -20,15 +20,18 @@ function Notes() {
   };
 
   return (
-    <div className='container'>
-      <h1 className='text-xl font-bold'>Notes</h1>
+    <>
+      <div>
+        <h1 className='text-xl font-bold'>✍️ Notes: My todo App</h1>
+      </div>
+
       <NoteForm setNotes={setNotes} />
       <div>
         {notes.map((note) => (
           <Note key={note.$id} setNotes={setNotes} noteData={note} />
         ))}
       </div>
-    </div>
+    </>
   );
 }
 
