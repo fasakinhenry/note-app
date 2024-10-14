@@ -25,7 +25,7 @@ function Notes() {
       <NoteForm setNotes={setNotes} />
       <div>
         {notes.map((note) => (
-          <Note key={note.$id} noteData={note} />
+          <Note key={note.$id} setNotes={setNotes} noteData={note} />
         ))}
       </div>
     </div>
