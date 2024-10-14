@@ -16,11 +16,11 @@ function Note({ setNotes, noteData }) {
     setNotes((prevState) => prevState.filter((i) => i.$id !== note.$id));
   };
   return (
-    <div>
-      <span onClick={handleUpdate}>
+    <div className='note-wrapper'>
+      <span className='note-body' onClick={handleUpdate}>
         {note.completed ? <s>{note.body}</s> : <>{note.body}</>}
       </span>
-      <div onClick={handleDelete}>
+      <div className='delete' onClick={handleDelete}>
         <DeleteIcon />
       </div>
     </div>
