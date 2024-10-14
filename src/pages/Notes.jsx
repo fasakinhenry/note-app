@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { database } from '../appwrite/config';
+import db from '../appwrite/databases';
 
 function Notes() {
   const [notes, setNotes] = useState([]);
@@ -11,10 +11,7 @@ function Notes() {
 
   // Initialize component functions
   const init = async () => {
-    const response = await database.listDocuments(
-      import.meta.env.VITE_DATABASE_ID,
-      import.meta.env.VITE_COLLECTION_ID_NOTES
-    );
+    const response = await db.notes.list();
 
     setNotes(response.documents);
   };

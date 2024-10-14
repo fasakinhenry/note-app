@@ -6,6 +6,6 @@ client
   .setEndpoint(import.meta.env.VITE_ENDPOINT)
   .setProject(import.meta.env.VITE_PROJECT_ID);
 
-const database = new Databases(client);
+const databases = new Databases(client);
 
-export { client, database };
+export { client, databases };
