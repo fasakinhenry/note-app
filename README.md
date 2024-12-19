@@ -1,8 +1,9 @@
+![todo](https://github.com/user-attachments/assets/1e3a06de-00d9-4c98-99dc-e8a6522cbc02)
 # Note App
 
-A place to test out appwrite's feature. The Note app is really self explanatory. Isn't it?
+This is a place to test out AppWrite's features. The Note app is really self-explanatory, isn't it?
 
-I don't really think this is a notes app that allows you to write notes. I know that's what you are expecting but oops sorry to disappoint you. This is more of a todo synonymous to the famous Google Notes which is one of Google's best product. You know what I mean. It is the most used app in the world. Isn't it. Why would they even have a Notes App?
+I don't really think this is a notes app that allows you to write notes. I know that's what you are expecting, but oops, sorry to disappoint you. This is more of a todo app synonymous with the famous Google Notes, which is one of Google's best products. You know what I mean. It is the most used app in the world, isn't it? Why would they even have a Notes App?
 
 > If Google can make a notes app then who am I not to.? kekw 😆🤣😂
 
